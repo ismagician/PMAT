@@ -24,7 +24,7 @@
 ---
 - Describe the results of pulling the strings from this binary. Record and describe any strings that are potentially interesting. Can any interesting information be extracted from the strings?
 
-    A: No, there is not a readeable strings
+    A: No, there is not a readeable strings 
 ---
 - Describe the results of inspecting the IAT for this binary. Are there any imports worth noting?
 
@@ -42,13 +42,13 @@
 ### Basic Dynamic Analysis
  - Describe initial detonation. Are there any notable occurances at first detonation? Without internet simulation? With internet simulation?
    
-    A: In the first denonation it appears a powershell but it closes instantely. It tries to connect to a 
+    A: In the first denonation it appears a powershell but it closes instantely. 
 ---
  - From the host-based indicators perspective, what is the main payload that is initiated at detonation? What tool can you use to identify this?
    
     A: In procmon can see a command execution using powershell the payload is encoded with base64 and it can decoded to view the original payload
 
-    Proof : 
+    Proof: 
     ![powershell_scrip](./img/powershell_script.png)
 
 ---
@@ -56,14 +56,15 @@
     
     A: `bonus2.corporatebonusapplication.local`
 
-    Proof :
+    Proof:
     ![dns](./img/dns.png)
 ---
  - What is the callback port number at detonation?
     
     A: port 8433
 
-    Proof : 
+    Proof: 
+
     ![port](./img/port.png)
  - What is the callback protocol at detonation?
 
@@ -74,7 +75,7 @@
 
     Proof: 
     ![procmon](./img/powershell.png)
-    
+
     ![tcpview](./img/tcpview.png)
 ---
  - Attempt to get the binary to initiate a shell on the localhost. Does a shell spawn? What is needed for a shell to spawn?

@@ -1,4 +1,4 @@
-# Malware Analysis
+# Practical Malware Analysis & Triage 
 
 
 [Lab Repository](https://github.com/HuskyHacks/PMAT-labs)
