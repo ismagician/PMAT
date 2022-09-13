@@ -80,7 +80,7 @@
 ---
  - Attempt to get the binary to initiate a shell on the localhost. Does a shell spawn? What is needed for a shell to spawn?
 
-    A: A shell spawns but can't run any command. To spawn the shell it necessary edit  `C:\Windows\System32\driver\etc\hosts`
+    A: A shell spawns but can't run any command. To spawn the shell it necessary edit  `C:\Windows\System32\drivers\etc\hosts`
     
     Proof: 
 
