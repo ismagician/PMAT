@@ -81,3 +81,10 @@
  - Attempt to get the binary to initiate a shell on the localhost. Does a shell spawn? What is needed for a shell to spawn?
 
     A: A shell spawns but can't run any command
+    
+    Proof: 
+
+   https://user-images.githubusercontent.com/92187317/189789975-04825ee9-6394-49dc-9f0e-06eb7ea05d80.mp4
+
+
+        
