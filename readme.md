@@ -12,3 +12,4 @@
 ## Challenges
 
 - [Challenge 1: Silly Putty](./Challenge1/readme.md)
+- [Challenge 2: SikoMode](./Challenge2/readme.md)
